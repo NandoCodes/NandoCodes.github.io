@@ -366,3 +366,42 @@ header > h2 + p {
     margin: 4rem auto;
   }
 }
+/* About*/
+.about{
+  width:95%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8rem 0 6rem 0;
+  overflow:hidden;
+  margin:auto;
+}
+
+.content{
+  text-align:justify;
+}
+.left-section{
+  width:50%;
+  flex-shrink:1;
+}
+.image-section{
+  width:40%;
+  flex-shrink:1;
+  margin:auto;
+}
+.image-section img
+{
+  max-width:90%;
+  height:auto;
+}
+
+@media screen and (max-width: 736px) {
+  .about > * {
+    width: 100%;
+    padding: 2rem;
+  }
+  header h2
+  {
+    text-align:center;
+  }
+
+}
